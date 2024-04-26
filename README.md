@@ -1,5 +1,8 @@
-# 💻 Kodluyoruz-IBM-CyberStartProgram  
-## 🐍 Python
+# 💻 Kodluyoruz-IBM-CyberStartProgram   
+![kodluyoruz-kodlama-gelecek-gelecegi-kodluyoruz-gelecek-burada](https://github.com/Fatmaaktar/Kodluyoruz-IBM-CyberStart/assets/106100226/b203294e-3eb4-417f-ae7e-76cdf70b2167)  
+
+## 1. HAFTA
+### 🐍 Python
 🌟 90'lı yıllarda Amsterdam'da Guide Van Rossum tarafından geliştirildi.  
 🌟Resme yönelimli, yorumlanabilen yüksek seviyeli bir programlama dilidir.  
 
@@ -181,7 +184,7 @@ print("Merhaba, " + name + "!")
  #### Comment    
  Python'da yorumlar, kodun anlaşılması ve belgelendirilmesi için kullanılır. Yorumlar, "#" karakteri ile başlar ve satır sonuna kadar devam eder. Python yorumları yalnızca insanlar için açıklama amacıyla kullanılır ve programın işlevselliğini etkilemez.  
  
- #### String ve Sayısal  ifadelerde karşılaştırma ve Sayısal   
+ #### String ve Sayısal  ifadelerde karşılaştırma 
  ```python
 # Eşitlik (==)
 x = 5
@@ -267,8 +270,46 @@ else:
  ```  
  
  #### Ternary Conditionals  
- #### Döngüler(Loops)  
  
+ 📋Python'da ternary conditional ifadeleri, kısa ve tek satırda bir koşul kontrolü yapmak için kullanılan bir yapıdır. Bu yapı, "if" ve "else" ifadelerini tek satırda ifade etmek için kullanılır.  
+ ```python
+ [option1] if [condition] else [option2]
+ ```
+```python
+user_score = 90
+
+print("Next level") if user_score > 50 else print("Repeat level")
+ ```
+
+ #### Döngüler(Loops)  
+
+**For döngüsü**  
+bir dizi (örneğin liste, demet veya dize) üzerinde dolaşır ve her bir eleman için belirli bir işlemi tekrarlar.  
+📌**Örnek:**
+
+```python
+# Bir liste üzerinde dolaşarak elemanları yazdırma
+numbers = [1, 2, 3, 4, 5]
+for num in numbers:
+    print(num)
+```
+
+**While Döngüsü**  
+While döngüsü, belirli bir koşul doğru olduğu sürece belirli bir bloğu tekrarlar.  
+
+📌**Örnek:**
+
+```python
+# 1'den 5'e kadar olan sayıları yazdırma
+num = 1
+while num <= 5:
+    print(num)
+    num += 1
+```
+
+👉**continue:** Bu ifade, döngü içerisinde çalıştırıldığında, o anda bulunulan döngü adımını atlayarak döngünün bir sonraki adımına geçer. Yani, döngünün geri kalan kısmını çalıştırmadan döngüye başa döner.  
+<br>
+👉**break:** Bu ifade, döngü içerisinde çalıştırıldığında, döngüyü tamamen sonlandırır ve döngüden çıkar. Yani, döngü koşulu hala sağlanıyor olsa bile, break ifadesi çalıştığında döngü sona erer.   
 
  ### 🤩 Clean Code  
  Temiz kodun önemi, yazılım geliştirmenin sadece kodu yazmak olmadığı gerçeğinden kaynaklanır. Kodun yazılmasından sonra, onu okuma, anlama, değiştirme ve bakımını yapma işlemi başlar  

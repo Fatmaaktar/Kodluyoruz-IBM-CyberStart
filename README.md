@@ -253,9 +253,12 @@ result = str11 <= str12  # True
  #### İf-Else-Elif   
  Python'da "if", "else" ve "elif" ifadeleri, programın farklı koşullara göre farklı işlemler yapmasını sağlar. Bu yapılar, programların karar verme süreçlerini yönlendirir.
 
-**if:** Belirli bir koşulun doğru olup olmadığını kontrol eder. Koşul doğruysa, if bloğu içindeki kod çalıştırılır.
-**else:** Bir "if" bloğundan önce gelir. "if" koşulu yanlışsa, else bloğu içindeki kod çalıştırılır.
-**elif:** "else if" kısaltmasıdır. Birden fazla koşulu kontrol etmek için kullanılır. İlk ifade yanlışsa ve elif ifadesi doğruysa, elif bloğu içindeki kod çalıştırılır.
+**if:** Belirli bir koşulun doğru olup olmadığını kontrol eder. Koşul doğruysa, if bloğu içindeki kod çalıştırılır.  
+
+**else:** Bir "if" bloğundan önce gelir. "if" koşulu yanlışsa, else bloğu içindeki kod çalıştırılır.  
+
+**elif:** "else if" kısaltmasıdır. Birden fazla koşulu kontrol etmek için kullanılır. İlk ifade yanlışsa ve elif ifadesi doğruysa, elif bloğu içindeki kod çalıştırılır.  
+
  ```python
 # Kullanıcıdan bir sayı alın
 num = int(input("Bir sayı girin: "))

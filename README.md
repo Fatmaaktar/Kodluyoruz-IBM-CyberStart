@@ -312,7 +312,53 @@ while num <= 5:
 
 👉**continue:** Bu ifade, döngü içerisinde çalıştırıldığında, o anda bulunulan döngü adımını atlayarak döngünün bir sonraki adımına geçer. Yani, döngünün geri kalan kısmını çalıştırmadan döngüye başa döner.  
 <br>
-👉**break:** Bu ifade, döngü içerisinde çalıştırıldığında, döngüyü tamamen sonlandırır ve döngüden çıkar. Yani, döngü koşulu hala sağlanıyor olsa bile, break ifadesi çalıştığında döngü sona erer.   
+👉**break:** Bu ifade, döngü içerisinde çalıştırıldığında, döngüyü tamamen sonlandırır ve döngüden çıkar. Yani, döngü koşulu hala sağlanıyor olsa bile, break ifadesi çalıştığında döngü sona erer.    
+
+
+#### List  
+Birden çok veriyi guruplayıp bir arada tutmak istediğimizde bu yapıyı kullanırız. Farklı veri tiplerini bir List'te barındırabiliriz. String konusunda gördüğümüz Indexing ve Slicing mantığı burda da geçerli. 
+📌**Örnek:**
+
+```python
+notes=[12,25,45,78,96,63]
+notes[0]   #12
+notes[0:5]   #[12, 25, 45, 78, 96]
+notes[0:]   #[12, 25, 45, 78, 96, 63]
+
+notes[0] +=10  #0 inexli elemana yani 12'ye 10 ekler
+```
+**len()** List'te kaç eleman olduğunu verir  
+**append()** İçinde yazdığımız elemanı List'e ekler  
+**extend()** İçinde yazılan birden çok elemanı List'in sonuna ekler  
+**insert()** List'in sonuna değilde kendi belirlediğimiz indexe eleman eklemek istediğimizde kullanabiliriz  
+**remove()** belli bir elemanı listeden silmek için kullanılır  
+**pop()** belirli bir indexteki elemanı silmek için kullanılır, aynı zamanda o değeri bize döndürür  
+**count()** içinde yazdığımız değerin listede kaç kez göründüğünü döndürür  
+**Concatenation** '+' operatörü ile birden fazla listelerin elemanlarını tek bir listede gösterme işlemine denir  
+**index()** belirli bir elemanın indexini verir  
+**reverse** List'i tersine çevirir  
+**sorted() & sort()** ikisi de List'teki değerleri default olarak küçükten büyüğe sıralar.  
+
+#### Tuple
+#### In
+#### Dictionary
+#### Set
+#### Non-Scallar For
+#### Split & Join
+#### List Comprehension
+#### Variable Unpacking
+#### Enumerate & Zip 
+#### Fonksiyon-Giriş
+#### Return
+#### Fonksiyonlar-Yorum
+#### Fonksiyonlar- Multiple Input/Ouput
+#### Fonksiyonlar- Predefiend/Parameters 
+#### Fonksiyonlar- Update/Parameters 
+#### First Class Functions
+#### Functions-For
+#### Underscore-Placeholder
+#### Fstring
+
 
  ### 🤩 Clean Code  
  Temiz kodun önemi, yazılım geliştirmenin sadece kodu yazmak olmadığı gerçeğinden kaynaklanır. Kodun yazılmasından sonra, onu okuma, anlama, değiştirme ve bakımını yapma işlemi başlar  

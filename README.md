@@ -1,7 +1,7 @@
 # 💻 Kodluyoruz-IBM-CyberStartProgram   
 ![kodluyoruz-kodlama-gelecek-gelecegi-kodluyoruz-gelecek-burada](https://github.com/Fatmaaktar/Kodluyoruz-IBM-CyberStart/assets/106100226/b203294e-3eb4-417f-ae7e-76cdf70b2167)  
 
-## 1. HAFTA
+
 ### 🐍 Python
 🌟 90'lı yıllarda Amsterdam'da Guide Van Rossum tarafından geliştirildi.  
 🌟Resme yönelimli, yorumlanabilen yüksek seviyeli bir programlama dilidir.  

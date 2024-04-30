@@ -317,6 +317,7 @@ while num <= 5:
 
 #### List  
 Birden çok veriyi guruplayıp bir arada tutmak istediğimizde bu yapıyı kullanırız. Farklı veri tiplerini bir List'te barındırabiliriz. String konusunda gördüğümüz Indexing ve Slicing mantığı burda da geçerli. 
+  
 📌**Örnek:**
 
 ```python
@@ -339,10 +340,90 @@ notes[0] +=10  #0 inexli elemana yani 12'ye 10 ekler
 **reverse** List'i tersine çevirir  
 **sorted() & sort()** ikisi de List'teki değerleri default olarak küçükten büyüğe sıralar.  
 
-#### Tuple
-#### In
-#### Dictionary
-#### Set
+#### Tuple  
+Listeler gibi birden çok veriyi bir arada tutmamızı sağlar, tek farkları Tuple'lar immutable'dır(Değişmez).  
+Tuple'larda elemanlar () içinde belirtilir.  
+
+📌**Örnek:**
+
+```python
+# Bir tuple oluşturuyoruz
+my_tuple = (1, 2, 3, 4, 5)
+
+# Tuple'ın elemanlarına erişiyoruz
+print("Tuple'ın ikinci elemanı:", my_tuple[1])
+
+# Tuple'ın uzunluğunu alıyoruz
+print("Tuple'ın uzunluğu:", len(my_tuple))
+```
+**in** List ve Tuple'larda belirli bir elemanın varlığını sorgulamak için kullanılır.  
+
+#### Dictionary  
+Anahtar-değer çiftlerinden oluşan, değiştirilebilir (mutable) ve sırasız bir veri yapısıdır. Her bir anahtar, bir değerle eşleştirilir. Anahtarlar genellikle metin veya sayısal veri türlerinden oluşabilirken, değerler herhangi bir veri tipi olabilir.
+
+Süslü parantezler {} kullanılarak oluşturulur. Anahtar ve değer arasında : ile ayrılır.  
+📌**Örnek:**  
+```python
+# Bir sözlük oluşturuyoruz
+my_dict = {"anahtar1": "değer1", "anahtar2": 2, "anahtar3": [1, 2, 3]}
+
+# Sözlükten bir değeri çağırıyoruz
+print(my_dict["anahtar1"])  # Çıktı: değer1
+
+# Sözlüğe yeni bir anahtar-değer çifti ekliyoruz
+my_dict["anahtar4"] = True
+```
+
+#### Set  
+👉 Bir set, benzersiz öğelerin koleksiyonunu tutar. Yani bir set içinde aynı öğeden birden fazla olamaz. Eğer aynı öğeyi birden fazla kez eklerseniz, set sadece bir kez ekler.  
+👉 Setler, öğelerin sırasını korumazlar. Yani bir setin elemanlarına eklediğiniz sıra, setin içindeki sırayı belirlemez.  
+👉 Setler, değiştirilebilir (mutable) veri tipleridir. Yani set içindeki öğeleri ekleyebilir, çıkarabilir veya güncelleyebilirsiniz.  
+👉 Setlerde matematiksel küme işlemleri gerçekleştirebilirsiniz. Örneğin, iki setin birleşimini, kesişimini veya farkını alabilirsiniz.  
+📌**Örnek:**  
+```python
+# Bir set oluşturuyoruz
+my_set = {1, 2, 3, 4, 5}
+
+# Set'e eleman ekliyoruz
+my_set.add(6)
+
+# Setten eleman çıkarıyoruz
+my_set.remove(3)
+
+# Seti yazdırıyoruz
+print(my_set)  # Çıktı: {1, 2, 4, 5, 6}
+```
+📋 Birleşim (Union): İki veya daha fazla setin birleşimini almak, bu setlerde bulunan tüm benzersiz öğelerin toplamını içeren yeni bir set oluşturur. Bu işlem union() metodu veya | operatörü ile gerçekleştirilebilir.    
+📌**Örnek:**  
+```python
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+union_set = set1.union(set2)
+# veya
+# union_set = set1 | set2
+print(union_set)  # Çıktı: {1, 2, 3, 4, 5}
+```
+📋 Kesişim (Intersection): İki veya daha fazla setin kesişimini almak, bu setlerde ortak olan tüm öğeleri içeren yeni bir set oluşturur. Bu işlem intersection() metodu veya & operatörü ile gerçekleştirilebilir.     
+📌**Örnek:**  
+```python
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+intersection_set = set1.intersection(set2)
+# veya
+# intersection_set = set1 & set2
+print(intersection_set)  # Çıktı: {3}
+```
+📋 Fark (Difference): Bir setin diğer setten farkını almak, ilk sette bulunan ancak diğer sette bulunmayan öğeleri içeren yeni bir set oluşturur. Bu işlem difference() metodu veya - operatörü ile gerçekleştirilebilir.     
+📌**Örnek:**  
+```python
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+difference_set = set1.difference(set2)
+# veya
+# difference_set = set1 - set2
+print(difference_set)  # Çıktı: {1, 2}
+```
+
 #### Non-Scallar For
 #### Split & Join
 #### List Comprehension

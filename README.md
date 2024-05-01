@@ -424,10 +424,54 @@ difference_set = set1.difference(set2)
 print(difference_set)  # Çıktı: {1, 2}
 ```
 
-#### Non-Scallar For
-#### Split & Join
+#### Non-Scallar For  
+📋 Python'da döngülerle (genellikle for döngüsüyle) işlem yapılırken, her bir adımda bir skaler değer (örneğin, bir sayı veya bir karakter) yerine, bir dizi, liste veya başka bir veri yapısı gibi tek bir değer yerine birden fazla değeri işlediğiniz durumları ifade eder.    
+📌**Örnek:**   
+```python
+# Var olan sayıların listesi
+numbers = [1, 2, 3, 4, 5]
+
+# Eklenecek sayı
+addition = 10
+
+# Sayıları güncelle
+for i in range(len(numbers)):
+    numbers[i] += addition
+
+# Güncellenmiş sayıları yazdır
+print("Güncellenmiş Sayılar:")
+print(numbers)
+```
+#### Split & Join  
+**split()** belirli bir bölme kriterine göre string'in alt parçalarını listenin elemanları olarak dönüştürebilir  
+**join** listenin elemanları arasına belirlediğimiz yapıyı koyup stringe döndürür  
+
 #### List Comprehension
-#### Variable Unpacking
+📋 Python'da liste oluşturmanın kısa ve okunaklı bir yoludur. Bir listenin içinde döngü kullanarak yeni bir liste oluşturmayı sağlar. Genellikle bir dizi veya başka bir liste üzerinde döngü yaparak her bir eleman üzerinde belirli bir işlem yapmak için kullanılır.    
+📌**Örnek:** 
+```python
+# Orjinal liste
+numbers = [1, 2, 3, 4, 5]
+
+# Her bir elemanın karesini alarak yeni bir liste oluştur
+squared_numbers = [num * num for num in numbers]
+
+# Oluşturulan liste
+print(squared_numbers)
+```
+#### Variable Unpacking 
+Bir demet veya liste içindeki elemanları tek bir adımda ayrıştırarak birden çok değişkene atama işlemidir.    
+📌**Örnek:** 
+```python
+numbers = [1, 2, 3, 4, 5]
+
+# İlk iki değeri a ve b değişkenlerine atayalım, kalan değerleri ise bir c'ye atayalım
+a, b, *c = numbers
+
+print("a:", a)  #1
+print("b:", b)  #2
+print("c:", c)  #3,4,5
+```
 #### Enumerate & Zip 
 #### Fonksiyon-Giriş
 #### Return

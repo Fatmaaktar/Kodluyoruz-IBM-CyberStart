@@ -4,7 +4,7 @@
 
 ### 🐍 Python
 🌟 90'lı yıllarda Amsterdam'da Guide Van Rossum tarafından geliştirildi.  
-🌟Resme yönelimli, yorumlanabilen yüksek seviyeli bir programlama dilidir.  
+🌟Yorumlanabilen yüksek seviyeli bir programlama dilidir.  
 
 #### Veri Tipleri  
 <li>Programa istedğimizi yaptırmamız için girdilerimizi ve programın içinde kullanılacak verileri ifade etmemizi sağlar</li>  

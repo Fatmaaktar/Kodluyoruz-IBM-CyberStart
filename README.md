@@ -472,17 +472,77 @@ print("a:", a)  #1
 print("b:", b)  #2
 print("c:", c)  #3,4,5
 ```
-#### Enumerate & Zip 
-#### Fonksiyon-Giriş
-#### Return
-#### Fonksiyonlar-Yorum
-#### Fonksiyonlar- Multiple Input/Ouput
-#### Fonksiyonlar- Predefiend/Parameters 
-#### Fonksiyonlar- Update/Parameters 
+#### Enumerate & Zip   
+**enumerate()** bir dizi, liste veya başka bir iterable nesne alır ve her bir öğeyi ve onun dizindeki konumunu içeren bir tuple döndürür. Bu, bir döngü içinde hem öğe değerine hem de indeksine erişmek için kullanışlıdır.  
+📌**Örnek:** 
+```python
+fruits = ['apple', 'banana', 'cherry']
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
+
+#çıktı:
+0 apple
+1 banana
+2 cherry
+```
+**zip()** bir veya daha fazla iterable nesneyi alır ve bunları birleştirerek her birinin karşılıklı öğelerinden oluşan bir tuple oluşturur. Bu, birden fazla liste veya demet üzerinde aynı anda döngü yaparken kullanışlıdır  
+📌**Örnek:** 
+```python
+names = ['Alice', 'Bob', 'Charlie']
+ages = [30, 25, 35]
+for name, age in zip(names, ages):
+    print(name, age)
+
+#çıktı
+Alice 30
+Bob 25
+Charlie 35
+
+```
+#### Fonksiyon-Giriş  
+📋 Belirli bir işlemi gerçekleştirmek için bir araya getirilmiş kod bloklarıdır. Bir fonksiyon, belirli bir isim altında tanımlanır ve bu isimle çağrılır. Fonksiyonlar, kodunuzu modüler hale getirmenin ve tekrar kullanılabilir parçalar oluşturmanın temel bir yoludur    
+" def fonksiyon_adı(input): " şeklinde tanımlanır.  
+**Abstraksiyon** karmaşık bir sistem veya nesnenin önemli detaylarından arındırılması ve sadece temel işlevlerinin veya özelliklerinin odaklanılması anlamına gelir. Programlama bağlamında, abstraksiyon genellikle bir arayüz veya sınıf kullanarak bir nesnenin iç işleyişini gizlemek veya soyutlamak için kullanılır.  
+#### Return  
+Bir fonksiyon, işlemleri tamamladıktan sonra bir değer döndürebilir     
+📌**Örnek:** 
+```python
+def toplama(a, b):
+    return a + b
+
+print(toplama(3, 5))  # Çıktı: 8
+```
+**Void Fonksiyonlar** herhangi bir değer döndürmeyen fonksiyonlardır  
+**Fonksiyonlar-Yorum** """ Yorumlar üç tırkan içinde yazılır """.  "?" ise fonksiyonun bize ne yaptığını döndürür.
+#### Multiple  
+**Multiple** (çoklu), birden fazla öğeyi içeren veya birden fazla işlemi gerçekleştiren anlamına gelir. Programlama bağlamında, "multiple" genellikle birçok öğeyi veya işlemi ifade eder  
+```python
+x, y, z = 1, 2, 3
+```
+#### Predefiend/Parameters 
+📋 "Predefined Parameters" veya "Default Parameters", bir fonksiyon tanımlanırken parametrelerin varsayılan değerlerle belirlenmesi anlamına gelir. Bu varsayılan değerler, fonksiyon çağrısı sırasında belirtilmezse otomatik olarak kullanılır.  
 #### First Class Functions
-#### Functions-For
-#### Underscore-Placeholder
+📋 Fonksiyonların diğer veri türleriyle aynı şekilde kullanılabilmesini sağlar. Bu özellik, fonksiyonların değişkenlere atanabilmesini, fonksiyonların başka fonksiyonlara argüman olarak geçirilebilmesini, fonksiyonlardan dönüş değeri olarak kullanılabilmesini ve veri yapılarında saklanabilmesini sağlar.
+#### Underscore-Placeholder  
+Python'da, alt çizgi (_) genellikle bir "placeholder" (yer tutucu) olarak kullanılır. Yani, alt çizgi, belirli bir değeri veya döndürülen değeri göz ardı etmek veya kullanmamak için kullanılır.
+```python
+for _ in range(5):
+    print("Merhaba")
+```
+Burada,range(5) fonksiyonu bir döngüyü beş kez tekrarlayacak ancak döngü içinde değişken kullanmamız gerekmediği için bu değişkenin adını _ olarak atadık  
 #### Fstring
+(format string), Python 3.6 ve sonraki sürümlerde kullanılabilen bir string formatlama yöntemidir. F-stringler, string içinde değişkenleri ve ifadeleri daha kolay bir şekilde yerleştirmenizi sağlar  
+📌**Örnek:**
+```python
+name = "Ahmet"
+age = 30
+
+# F-string kullanarak değişkenleri yerleştirme
+message = f"Merhaba, benim adım {name} ve yaşım {age}."
+
+print(message)
+```
+Bu örnekte, name ve age değişkenleri, F-string içinde süslü parantez içine yerleştirilmiştir. Program çalıştırıldığında, bu değişkenlerin değerleri doğrudan string içine yerleştirilerek ekrana yazdırılır.
 
 
  ### 🤩 Clean Code  

@@ -568,12 +568,23 @@ Bu örnekte, name ve age değişkenleri, F-string içinde süslü parantez için
     İyi örnek: isActive (bu isim, durumun ne olduğunu belirtir)
 
 2) **Statik, Dinamik ve Generic Kavramları**    
-    📋Statik, dinamik ve generic kavramları, temiz kod yazmanın önemli bir parçasıdır. Bu kavramları anlamak ve doğru durumda kullanmak, kodunuzun kalitesini ve bakımını büyük ölçüde artırabilir.  
-    📋Generic programlama da, doğru durumda kullanıldığında kodu daha güvenli ve yeniden kullanılabilir hale getirebilir  
-    📋Statik ve dinamik tipli dillerin her birinin kendine özgü avantajları ve dezavantajları vardır. Kod yazdıkça kullanım alanlarını daha iyi kavrayacaksınız.
+    📋 Statik, dinamik ve generic kavramları, temiz kod yazmanın önemli bir parçasıdır. Bu kavramları anlamak ve doğru durumda kullanmak, kodunuzun kalitesini ve bakımını büyük ölçüde artırabilir.  
+    📋 Generic programlama da, doğru durumda kullanıldığında kodu daha güvenli ve yeniden kullanılabilir hale getirebilir  
+    📋 Statik ve dinamik tipli dillerin her birinin kendine özgü avantajları ve dezavantajları vardır. Kod yazdıkça kullanım alanlarını daha iyi kavrayacaksınız.
 
      
 
+3) **DRY Prensibi/ Don't Repeat Yourself (Kendini Tekrarlama)**   
+   📋 Yazılım geliştirme sürecinde tekrarlanan kodları en aza indirmeyi ve kod tekrarını önlemeyi amaçlar. Her bilginin tek ve kesin bir temsili olmalıdır sözüne ithafen yapılan bir prensiptir.
+
+4) **Tek Sorumluluk İlkesi/ Single-Responsibility Principle**   
+   📋 SOLID prensiplerinin ilkini oluşturan bir yazılım geliştirme prensibidir
+       
+   📋 Temel amacı, yazılım bileşenlerini daha anlaşılır, daha bakımı kolay ve daha esnek hale getirmektir. Bir bileşenin tek bir sorumluluğa sahip olması, o bileşenin diğer bileşenlerle daha az bağımlı olmasını sağlar ve bu da kodun daha modüler ve yeniden kullanılabilir olmasını sağlar
+
+   
+
+    
    
 
 

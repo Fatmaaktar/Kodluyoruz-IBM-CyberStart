@@ -583,9 +583,27 @@ Bu örnekte, name ve age değişkenleri, F-string içinde süslü parantez için
    📋 Temel amacı, yazılım bileşenlerini daha anlaşılır, daha bakımı kolay ve daha esnek hale getirmektir. Bir bileşenin tek bir sorumluluğa sahip olması, o bileşenin diğer bileşenlerle daha az bağımlı olmasını sağlar ve bu da kodun daha modüler ve yeniden kullanılabilir olmasını sağlar
 
    
-
-    
+## Bulut Bilişim
+Bilgileri bir bilgisayarın sabit disk sürücüsü yerine İnternet üzerinde depolar ve işler  
+- Çok daha yüksek miktarda bilgiyi çok daha hızlı bir biçimde depolayabilir ve işleyebilir  
+- Sonuçları yalnızca tek bir telefona, tablete, bilgisayara ya da bir dizi yerel terminale değil, İnternet'e bağlanabilen herhangi bir aygıta aktarabilir
+**3 Farklı bulut hizmeti vardır**
+  - Genel Bulut
+     Küçük işletmelerin ve bireysel kullanıcıların İnternet üzerinden çok yüksek bilgi işlem gücüne erişebilecekleri klasik bulut bilişim modelidir
+  - Hibrit Bulut
+    Genel ve özel kaynakları birleştirir. Verilerin bir kısmı özel bulutta ve bir kısmı da genel bulutta bulunur ve bunlar farklı bulut kullanım düzeyleri sunan birden çok satıcı firma tarafından sağlanır.
+  - Özel Bulut
+     Tek bir kuruluşun bilgilerini korur  
    
+**Bulut bilişimin en popüler üç hizmet modelini**  
+Hizmet olarak sunulan yazılım **(SaaS)**, hizmet olarak sunulan platform **(PaaS)** hizmet olarak sunulan altyapı **(IaaS)**  
+
+![bulutB](https://github.com/Fatmaaktar/Kodluyoruz-IBM-CyberStart/assets/106100226/f62a0cee-5cbc-4e9b-afae-33e0f2c4cde9)   
+
+📌 **SaaS** ifadesini duyduğunuzda, e-posta veya çevrimiçi alışveriş gibi kullanım biçimlerini düşünün.  
+📌 **PaaS**'yi duyduğunuzda, konteynerleri, veritabanlarını, çalıştırma zamanını ve entegrasyonu düşünün.  
+📌 **IaaS**'yi duyduğunuzda, bilişim, depolama ve ağ kaynaklarını düşünün.  
+
 
 
 

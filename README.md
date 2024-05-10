@@ -604,6 +604,8 @@ Hizmet olarak sunulan yazılım **(SaaS)**, hizmet olarak sunulan platform **(Pa
 📌 **PaaS**'yi duyduğunuzda, konteynerleri, veritabanlarını, çalıştırma zamanını ve entegrasyonu düşünün.  
 📌 **IaaS**'yi duyduğunuzda, bilişim, depolama ve ağ kaynaklarını düşünün.  
 
+**Kubernetes** konteynerli iş yüklerinin ve hizmetlerin yönetilmesi için açık kaynaklı bir platformdur  
+
 
 
 

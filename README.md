@@ -608,7 +608,8 @@ Hizmet olarak sunulan yazılım **(SaaS)**, hizmet olarak sunulan platform **(Pa
 
 ![23](https://github.com/Fatmaaktar/Kodluyoruz-IBM-CyberStart/assets/106100226/002acc9c-01c4-476c-abac-aaf6e2eed869)  
 
-
+ 📋 Teknik inovasyonlar, buluta bağımlıdır ve bu da bulutu yapay zekaya, blockchain'e, Nesnelerin İnterneti'ne ve hatta kuantum bilişime açılan kapı haline getirir  
+ 
 
 
 

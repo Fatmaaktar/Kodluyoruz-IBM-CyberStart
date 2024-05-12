@@ -611,7 +611,25 @@ Hizmet olarak sunulan yazılım **(SaaS)**, hizmet olarak sunulan platform **(Pa
  📋 Teknik inovasyonlar, buluta bağımlıdır ve bu da bulutu yapay zekaya, blockchain'e, Nesnelerin İnterneti'ne ve hatta kuantum bilişime açılan kapı haline getirir  
  
 
+## Yapay Zeka
+Yapay zeka veya AI, makineleri akıllı hale getirme bilimidir. 
+**Zayıf Yapay Zeka**  
+Çoğu şirket, işleri daha hızlı ve daha düşük maliyetle otomatik hale getirmek ve sonuç almak için zayıf yapay zekayı kullanır.  
+ Müşteri hizmetleri sorularını yanıtlayan bir sohbet robotunu, Facebook'taki yüz tanıma özelliğini, Amazon'daki satın alma önerilerini veya sesi metne dönüştürebilen uygulamaları düşünün. Alexa, Google Assistant ve Siri, zayıf yapay zekaya örnektir.  
+ **Artırılmış zeka**   
+ İnsan zekasına yönelik tamamlayıcı bir rol üstlenerek, insanların daha iyi karar almalarına yardımcı olur.   
+ Örneğin IBM Watson for Oncology, sağlık uzmanlarının bir kanser hastasının tıbbi kayıtlarındaki önemli bilgileri belirlemelerine yardımcı olur ve çeşitli olası tedavileri, her birinin ne kadar işe yarayacağına dair tahminlerle birlikte önerir.    
+ **Genel Yapay Zeka**   
+ Henüz icat edilmedi. Bugün, genel yapay zeka pratik bir teknolojiden ziyade bir hedef. Buna ulaşmak için, on yıllar sürecek ek araştırma ve daha güçlü bilgisayarlar gerekecek.   
+ 
+![24](https://github.com/Fatmaaktar/Kodluyoruz-IBM-CyberStart/assets/106100226/b84b0d3a-56b0-4267-9435-720f73229693)   
 
-
-
+**Sinir ağları**  
+Makine öğrenimi modellerinden oluşan gruplardır. İnsan beyninin yoğun bir şekilde birbirine bağlı olan hücrelerini simüle ederler. Nesneleri öğrenebilir, örüntüleri tanıyabilir ve açık bir şekilde programlanmalarına gerek olmadan karar verebilirler.  
+**Gözetim altında öğrenim**  
+Makineye bir insan tarafından etiketlenmiş oldukça doğru bir veri seti sunan bir makine öğrenimi modelidir.  
+**Gözetimsiz öğrenim**  
+Yapay zekaya herhangi bir etiketlenmiş veri sunmayan bir makine öğrenimi modelidir. Bu, verilerin insanların bu veri örüntülerini kendi başlarına tanımlayamayacağı kadar büyük veya karmaşık olduğu durumlarda değerlidir.  
+**Görsel tanıma**   
+ Bilgisayarları fotoğraf ve videoları anlayıp yorumlamaları için eğitmeye odaklanan bir yapay zeka alt alanıdır.  
  

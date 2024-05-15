@@ -633,3 +633,6 @@ Yapay zekaya herhangi bir etiketlenmiş veri sunmayan bir makine öğrenimi mode
 **Görsel tanıma**   
  Bilgisayarları fotoğraf ve videoları anlayıp yorumlamaları için eğitmeye odaklanan bir yapay zeka alt alanıdır.  
  
+## Siber Güvenlik
+Siber güvenlik, sanal dünyada suçun ve zararın azaltılmasına yardımcı oluyor. Bunu bilgisayar sistemlerinin ve verilerin gizliliğinin, bütünlüğünün ve kullanılabilirliğinin tehditlere karşı korunmasına yönelik bir dizi yöntem olarak düşünün.  
+............................

@@ -635,4 +635,33 @@ Yapay zekaya herhangi bir etiketlenmiş veri sunmayan bir makine öğrenimi mode
  
 ## Siber Güvenlik
 Siber güvenlik, sanal dünyada suçun ve zararın azaltılmasına yardımcı oluyor. Bunu bilgisayar sistemlerinin ve verilerin gizliliğinin, bütünlüğünün ve kullanılabilirliğinin tehditlere karşı korunmasına yönelik bir dizi yöntem olarak düşünün.  
-............................
+
+**Siber Güvenlik ile ilgili terimler**   
+
+**APT**   Çok sayıda aşamadan oluşan ve uzun süreli bir ağ saldırısıdır ve bu saldırı türünde, yetkisiz kullanıcılar değerli kurumsal verilere erişir ve bunları toplar.  
+**Botnet** Potansiyel olarak dünyanın herhangi bir yerinde bulunan, bir kötü amaçlı yazılım parçasının bulaşmış olduğu bir grup bilgisayar sistemidir.   
+**Kaba Kuvvet Saldırısı** Bir bilgisayar korsanının, örneğin parolasını "tahmin etmeye" çalışarak bir bilgisayar sistemine yetkisiz olarak erişmek için kullanabileceği bir yöntemdir.  
+**Komuta ve Kontrol Merkezi** Bir botnetteki tüm botları kontrol eden bir uygulamadır. Bir bilgisayar korsanı, bir uygulama aracılığıyla bir komut gönderir ve bu uygulama daha sonra komutu bir ağ üzerindeki tüm ele geçirilmiş bilgisayarlara aktarır.  
+**Dijital İmza** Bir özel anahtar ile şifrelenmiş ve mesajın ya da nesnenin orijinalliğinin ve bütünlüğünün alıcıya garanti edilmesi için bir mesaja ya da nesneye eklenmiş olan bilgilerdir.  
+**İstismar** Bir bilgisayarın güvenlik açığından yararlanmak amacıyla kullanılabilecek kötü amaçlı bir uygulama veya komut dosyasıdır.  
+**Güvenlik Duvarı**  Yetkisiz erişimin engellenmesine odaklanan donanım veya yazılım tabanlı bir savunma teknolojisidir. 
+**Bal Çanağı (honeypot)** Savunma amaçlı bir siber güvenlik yöntemidir. Bu yöntem, bir ağ üzerinde yasal ve yüksek değerli bir hedef gibi görünecek şekilde tasarlanmış bir bilgisayarın (sunucu) kullanılmasını kapsar.  
+**Jailbreak** Bir aygıt üzerindeki yazılım kısıtlamaları atlanarak bir kullanıcının bir işletim sistemine ya da çekirdeğe kök erişimi elde etmesidir. Bu yöntem, genellikle cep telefonu güvenliği bağlamında kullanılır.  
+**Ortadaki Adam (MitM)**  Bir saldırganın, işlemleri gözlemek ve kaydetmek amacıyla bir kullanıcı ile web sitesi arasındaki mesajları yakaladığı izinsiz giriş yöntemidir. MitM saldırıları, kimlik avı 
+dolandırıcılığı ile site trafiğini yönlendirme saldırılarının gelişmiş türevleridir.   
+**Yama** Bir "düzeltme" olarak yayınlanan yeni bir yazılım parçasıdır. Çoğu yazılımın oluşturulması binlerce satırlık programlama dili gerektirir, bu nedenle bir geliştiricinin tüm güvenlik açıklarının kapatıldığından emin olması zordur.   
+**Fidye Yazılımı**  Bir bilgisayardaki dosyalara erişimi kasıtlı olarak engelleyen bir tür kötü amaçlı yazılımdır. Bir bilgisayara bu amaçla tasarlanmış bir kötü amaçlı yazılım bulaşırsa, yazılım tipik olarak dosyaları şifreler ve şifrelerinin çözülmesi için bir "fidye" ödenmesini talep eder.  
+**Truva Atı** Genellikle bir bilgisayar korsanının bir bilgisayara uzaktan erişim elde etmesine olanak sağlayan bir kötü amaçlı yazılım parçasıdır. Truva Atı bulaşmış olan bir sistem, bir suçlunun dosyaları karşıdan yüklemesi ya da kullanıcının tuş vuruşlarını izlemesi için bir giriş noktası yaratır.  
+**Sanal Özel Ağ (VPN)** Bir kullanıcının İnternet'i kullanırken anonim olarak kalmasına imkan tanıyan bir araçtır. Bir VPN, lokasyonu gizleyerek ve kullanıcının bilgisayarı ile ziyaret ettiği web sitesi arasında aktarıldığı sırada trafiği şifreleyerek anonimlik sağlar.  
+**Su Kaynağı (Saldırısı)** Belirli bir hedef kitlenin sıklıkla ziyaret ettiği bir web sitesine kötü amaçlı kod yerleştirerek belirli bir ilgi alanına sahip olan bir grubu hedefleyen bir saldırıdır.   
+**Beyaz Şapkalı Bilgisayar Korsanı** Bilgisayar korsanlığı yeteneklerini etik bir amaçla kullanan bir kişidir. Buna karşı, "siyah şapkalı" bilgisayar korsanı ise tipik olarak kötü amaçlıdır.  
+**Solucan** Diğer bağlı bilgisayarlara bulaşmak için kendini çoğaltabilen bir kötü amaçlı yazılım parçasıdır. Kötü amaçlı yazılımlar, istismar etmek ve yayılmak için bir ağdaki zayıf sistemleri aktif olarak avlar.  
+**Sıfır Gün (Saldırısı)** Belirli bir tür yazılım istismarıdır, genellikle kötü amaçlı yazılımdır. Sıfır gün istismarını özgün kılan özellik, halk ya da yazılım satıcı firması tarafından bilinmemesidir. Bir başka deyişle, güvenlik açığından haberdar olan az sayıda insan olduğundan, kendilerini bunun kullanımından korumak için "sıfır günleri" bulunur.  
+
+
+
+
+
+
+
+

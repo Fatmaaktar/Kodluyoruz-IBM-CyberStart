@@ -659,8 +659,36 @@ dolandırıcılığı ile site trafiğini yönlendirme saldırılarının geliş
 **Sıfır Gün (Saldırısı)** Belirli bir tür yazılım istismarıdır, genellikle kötü amaçlı yazılımdır. Sıfır gün istismarını özgün kılan özellik, halk ya da yazılım satıcı firması tarafından bilinmemesidir. Bir başka deyişle, güvenlik açığından haberdar olan az sayıda insan olduğundan, kendilerini bunun kullanımından korumak için "sıfır günleri" bulunur.  
 
 
+## Veri Bilimi   
+Veri bilimcisi, verilerden içgörüler çıkarır. Tahmine dayalı analitik, veri madenciliği, metin madenciliği, örüntü tanıma, veri modelleme, makine öğrenimi ve istatistik yöntemlerini kullanarak, geniş veri setlerinde saklı anlamı ortaya çıkarır
+Verileri iki farklı şekilde organize edebilirsiniz, yapılandırılmış veri veya yapılandırılmamış veri.   
+**Yapılandırılmış veriler**  sütunlar ve satırlar şeklinde ortaya konulabilen bilgilerdir. Microsoft Excel gibi bir hesap tablosu kullanarak yapılandırılmış verilerle çalışmış olabilirsiniz. Karmaşık bilgiler için, veri bilimcileri SQL, Apache veya R gibi, bağlı birçok tabloda bulunan devasa miktarda veriyi sıralayabilen daha güçlü araçlar kullanırlar.  
+**yapılandırılmamış veriler** bir diğer deyişle "geri kalan her şey" var. Verilere ilişkin yerleşik bir organizasyon (veya yapı) olmadığında bu terimi kullanırız. Yapılandırılmamış veriler; ses dosyaları, sosyal medya paylaşımları, makale metinleri, hatta şarkı sözlerinden oluşan bir koleksiyon olabilir.    
+## Blockchain nedir?  
+Blockchain, eşler arası bir ağda gerçekleşen zincir işlemler ve alışverişlerdeki veri bloklarını kaydeden bir dağıtık defter teknolojisi uygulamasıdır.  
 
+1) Blockchain, bilgileri kişisel bilgisayarlardan oluşan bir ağda depolayarak, bilgi depolamasını merkezilikten uzaklaştırır ve dağınık hale getirir.   
+2) Bu da herhangi birinin ağı ele geçirmesini veya ağa müdahale edip bozmasını zorlaştırır.  
+3) Blockchain, kayıtların kurcalanmasını engellemek için kriptografiyi kullanır.
+4) Blockchain dağıtık defteri, işlem bilgilerini tipik bir defterden farklı biçimde saklar ve bu defter müdahaleye açık değildir!
 
+Kriptografik hash fonksiyonları  
+Zincire bir blok eklendiğinde, rastgele harfler ve rakamların bir araya gelerek oluşturduğu, hash adında bir kriptografik mühürle mühürlenir.
+
+Peki Blockchain nasıl çalışır?
+
+1) Gerçekleşen her işlem bir blok içine yerleştirilir
+2) Her blok önündeki ve arkasındaki bloğa bağlıdır
+3) İşlemler bir araya gelerek blokları oluşturur ve blockchain (blok zinciri) adı verilen değiştirilemeyen bir zincir yaratılmış olur
+   
+**Not** Blockchain, dağıtık defter teknolojisini kullanarak değerin veya dijital varlıkların A noktasından B noktasına hareketini izler. Bu da blockchain defterlerinin, yazılımını çalıştıran tüm bilgisayarlara dağıtılmış olduğu anlamına gelir.  
+
+**Not** Blockchain ve veritabanı arasındaki temel fark yetki dağıtımıdır (decentralization). Blockchain'de kayıtlar tek bir merkezi noktada tutulmaz; eşzamanlı olarak bilgisayarlarda paylaşılır. Blockchain'deki her katılımcı tüm kayıtların ve değişikliklerin güvenli bir kopyasına sahip olduğundan verilerin denetim geçmişini herkes görüntüleyebilir. İşlemlerin denetlenmesi ve her şeyin doğruluğunun onaylanması için güvenilir ve merkezi bir üçüncü kişiye gerek yoktur.  
+Güveni ve gücü ağdaki tüm katılımcılara dağıtır, yani herkes bunun bir parçası olabilir. Bitcoin bugün üretilen en büyük genel blockchain ağlarından biridir.  
+
+**Hyperledger** işlemlerin dünya çapında gerçekleştirilme biçimini dönüştürebilen dağıtık defterler için sektörler genelinde bir açık standardın önemli özelliklerini belirleyerek ve bunları ele alarak blockchain teknolojisini geliştirmeyi amaçlayan bir Linux Foundation açık kaynak projesidir.  
+
+  
 
 
 

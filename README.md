@@ -499,6 +499,85 @@ Bob 25
 Charlie 35
 
 ```
+
+#### Veri Yapıları ve Algoritmalar  
+
+📋 Algoritma, belirli bir problemi çözmek veya bir görevi yerine getirmek için tasarlanmış, sonlu sayıda adımlardan oluşan talimatlar dizisidir. Her adım, kesin ve açık bir şekilde tanımlanmış işlemler içerir ve bu adımların sırası takip edildiğinde, başlangıç verilerinden istenilen sonuca ulaşılır. Algoritmalar, bilgisayar bilimlerinde ve günlük yaşamda geniş bir uygulama alanına sahiptir.   
+
+##### Sayı Sistemleri
+
+Bu proje, çeşitli sayı sistemleri hakkında temel bilgileri ve bunlar arasındaki dönüşüm işlemlerini içermektedir.  
+
+###### 1. Onlu Sayı Sistemi (Decimal)
+- **Taban:** 10
+- **Rakamlar:** 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+- **Kullanım:** Günlük yaşamda en yaygın kullanılan sistemdir.
+- **Örnek:** 345 (Bu, 3*10^2 + 4*10^1 + 5*10^0 olarak ifade edilir)
+
+###### 2. İkili Sayı Sistemi (Binary)
+- **Taban:** 2
+- **Rakamlar:** 0, 1
+- **Kullanım:** Bilgisayarlar ve dijital elektroniklerde temel sistemdir.
+- **Örnek:** 1011 (Bu, 1*2^3 + 0*2^2 + 1*2^1 + 1*2^0 olarak ifade edilir)
+
+###### 3. Sekizli Sayı Sistemi (Octal)
+- **Taban:** 8
+- **Rakamlar:** 0, 1, 2, 3, 4, 5, 6, 7
+- **Kullanım:** Bilgisayar bilimlerinde, özellikle daha eski sistemlerde yaygın olarak kullanılır.
+- **Örnek:** 345 (Bu, 3*8^2 + 4*8^1 + 5*8^0 olarak ifade edilir)
+
+###### 4. Onaltılı Sayı Sistemi (Hexadecimal)
+- **Taban:** 16
+- **Rakamlar:** 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F (A = 10, B = 11, ... , F = 15)
+- **Kullanım:** Bilgisayar bilimlerinde, özellikle bellek adresleme ve renk kodlamada kullanılır.
+- **Örnek:** 1A3 (Bu, 1*16^2 + 10*16^1 + 3*16^0 olarak ifade edilir)
+
+###### 5. Üçlü Sayı Sistemi (Ternary)
+- **Taban:** 3
+- **Rakamlar:** 0, 1, 2
+- **Kullanım:** Daha az yaygın olmakla birlikte, bazı teorik ve pratik uygulamalarda kullanılır.
+- **Örnek:** 102 (Bu, 1*3^2 + 0*3^1 + 2*3^0 olarak ifade edilir)
+
+###### Dönüşüm İşlemleri
+
+Sayılar bir sistemden diğerine dönüştürülebilir. İşte birkaç dönüşüm örneği:
+
+- **Onlu'dan İkili'ye Dönüşüm:** Sayıyı 2 tabanına bölerek ve kalanları yazarak yapılır.
+  - Örnek: 13 (decimal) → 1101 (binary)
+    - 13 ÷ 2 = 6 kalan 1
+    - 6 ÷ 2 = 3 kalan 0
+    - 3 ÷ 2 = 1 kalan 1
+    - 1 ÷ 2 = 0 kalan 1 (sondan başa doğru yazılır: 1101)
+
+- **Onlu'dan Onaltılı'ya Dönüşüm:** Sayıyı 16 tabanına bölerek ve kalanları yazarak yapılır.
+  - Örnek: 255 (decimal) → FF (hexadecimal)
+    - 255 ÷ 16 = 15 kalan 15 (15 = F)
+    - 15 ÷ 16 = 0 kalan 15 (15 = F) (sondan başa doğru yazılır: FF)
+
+###### Kullanım Alanları
+- **Bilgisayar Bilimleri:** İkili, sekizli ve onaltılı sistemler, bellek adresleme, veri temsil etme ve çeşitli algoritmalarda kullanılır.
+- **Elektronik:** İkili sistem, dijital devrelerde ve mikroişlemcilerde kullanılır.
+- **Matematik ve Teorik Bilgisayar Bilimleri:** Çeşitli sayı sistemleri, sayı teorisi ve algoritmaların analizinde kullanılır.
+
+  **Array:** Sabit boyutlu ve aynı türden elemanlar içeren bir veri yapısıdır.
+  
+  - Elemanlara indeksleri aracılığıyla doğrudan erişim sağlar.
+  - Bellekte ardışık konumlarda saklanır.
+  - **Hızlı Erişim:** İndeksleme sayesinde herhangi bir elemana O(1) zaman karmaşıklığı ile erişilebilir.
+  - **Basitlik:** Yapısı basittir ve kullanımı kolaydır.
+
+ **Linked List** Düğümlerin (nodes) birbirine bağlandığı dinamik bir veri yapısıdır. Her düğüm, bir veri öğesi ve bir sonraki düğümün adresini içerir.
+
+- Tek Yönlü Bağlı Liste (Singly Linked List): Her düğüm sadece sonraki düğüme işaret eder.
+- Çift Yönlü Bağlı Liste (Doubly Linked List): Her düğüm hem önceki hem de sonraki düğüme işaret eder.
+- Dairesel Bağlı Liste (Circular Linked List): Son düğüm, ilk düğüme işaret eder.
+
+- Dinamik Boyut: Bağlı listenin boyutu dinamik olarak değiştirilebilir.
+- Kolay Eleman Ekleme ve Çıkarma: Listeye eleman eklemek veya çıkarmak, sadece ilgili düğümlerin bağlantılarını değiştirmeyi gerektirir (O(1) zaman karmaşıklığı).
+
+  
+
+
 #### Fonksiyon-Giriş  
 📋 Belirli bir işlemi gerçekleştirmek için bir araya getirilmiş kod bloklarıdır. Bir fonksiyon, belirli bir isim altında tanımlanır ve bu isimle çağrılır. Fonksiyonlar, kodunuzu modüler hale getirmenin ve tekrar kullanılabilir parçalar oluşturmanın temel bir yoludur    
 " def fonksiyon_adı(input): " şeklinde tanımlanır.  

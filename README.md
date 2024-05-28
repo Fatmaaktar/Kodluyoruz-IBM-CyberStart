@@ -500,85 +500,8 @@ Charlie 35
 
 ```
 
-#### Veri Yapıları ve Algoritmalar  
 
-📋 Algoritma, belirli bir problemi çözmek veya bir görevi yerine getirmek için tasarlanmış, sonlu sayıda adımlardan oluşan talimatlar dizisidir. Her adım, kesin ve açık bir şekilde tanımlanmış işlemler içerir ve bu adımların sırası takip edildiğinde, başlangıç verilerinden istenilen sonuca ulaşılır. Algoritmalar, bilgisayar bilimlerinde ve günlük yaşamda geniş bir uygulama alanına sahiptir.   
-
-##### Sayı Sistemleri
-
-Bu proje, çeşitli sayı sistemleri hakkında temel bilgileri ve bunlar arasındaki dönüşüm işlemlerini içermektedir.  
-
-###### 1. Onlu Sayı Sistemi (Decimal)
-- **Taban:** 10
-- **Rakamlar:** 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-- **Kullanım:** Günlük yaşamda en yaygın kullanılan sistemdir.
-- **Örnek:** 345 (Bu, 3*10^2 + 4*10^1 + 5*10^0 olarak ifade edilir)
-
-###### 2. İkili Sayı Sistemi (Binary)
-- **Taban:** 2
-- **Rakamlar:** 0, 1
-- **Kullanım:** Bilgisayarlar ve dijital elektroniklerde temel sistemdir.
-- **Örnek:** 1011 (Bu, 1*2^3 + 0*2^2 + 1*2^1 + 1*2^0 olarak ifade edilir)
-
-###### 3. Sekizli Sayı Sistemi (Octal)
-- **Taban:** 8
-- **Rakamlar:** 0, 1, 2, 3, 4, 5, 6, 7
-- **Kullanım:** Bilgisayar bilimlerinde, özellikle daha eski sistemlerde yaygın olarak kullanılır.
-- **Örnek:** 345 (Bu, 3*8^2 + 4*8^1 + 5*8^0 olarak ifade edilir)
-
-###### 4. Onaltılı Sayı Sistemi (Hexadecimal)
-- **Taban:** 16
-- **Rakamlar:** 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F (A = 10, B = 11, ... , F = 15)
-- **Kullanım:** Bilgisayar bilimlerinde, özellikle bellek adresleme ve renk kodlamada kullanılır.
-- **Örnek:** 1A3 (Bu, 1*16^2 + 10*16^1 + 3*16^0 olarak ifade edilir)
-
-###### 5. Üçlü Sayı Sistemi (Ternary)
-- **Taban:** 3
-- **Rakamlar:** 0, 1, 2
-- **Kullanım:** Daha az yaygın olmakla birlikte, bazı teorik ve pratik uygulamalarda kullanılır.
-- **Örnek:** 102 (Bu, 1*3^2 + 0*3^1 + 2*3^0 olarak ifade edilir)
-
-###### Dönüşüm İşlemleri
-
-Sayılar bir sistemden diğerine dönüştürülebilir. İşte birkaç dönüşüm örneği:
-
-- **Onlu'dan İkili'ye Dönüşüm:** Sayıyı 2 tabanına bölerek ve kalanları yazarak yapılır.
-  - Örnek: 13 (decimal) → 1101 (binary)
-    - 13 ÷ 2 = 6 kalan 1
-    - 6 ÷ 2 = 3 kalan 0
-    - 3 ÷ 2 = 1 kalan 1
-    - 1 ÷ 2 = 0 kalan 1 (sondan başa doğru yazılır: 1101)
-
-- **Onlu'dan Onaltılı'ya Dönüşüm:** Sayıyı 16 tabanına bölerek ve kalanları yazarak yapılır.
-  - Örnek: 255 (decimal) → FF (hexadecimal)
-    - 255 ÷ 16 = 15 kalan 15 (15 = F)
-    - 15 ÷ 16 = 0 kalan 15 (15 = F) (sondan başa doğru yazılır: FF)
-
-###### Kullanım Alanları
-- **Bilgisayar Bilimleri:** İkili, sekizli ve onaltılı sistemler, bellek adresleme, veri temsil etme ve çeşitli algoritmalarda kullanılır.
-- **Elektronik:** İkili sistem, dijital devrelerde ve mikroişlemcilerde kullanılır.
-- **Matematik ve Teorik Bilgisayar Bilimleri:** Çeşitli sayı sistemleri, sayı teorisi ve algoritmaların analizinde kullanılır.
-
-  **Array:** Sabit boyutlu ve aynı türden elemanlar içeren bir veri yapısıdır.
-  
-  - Elemanlara indeksleri aracılığıyla doğrudan erişim sağlar.
-  - Bellekte ardışık konumlarda saklanır.
-  - **Hızlı Erişim:** İndeksleme sayesinde herhangi bir elemana O(1) zaman karmaşıklığı ile erişilebilir.
-  - **Basitlik:** Yapısı basittir ve kullanımı kolaydır.
-
- **Linked List** Düğümlerin (nodes) birbirine bağlandığı dinamik bir veri yapısıdır. Her düğüm, bir veri öğesi ve bir sonraki düğümün adresini içerir.
-
-- Tek Yönlü Bağlı Liste (Singly Linked List): Her düğüm sadece sonraki düğüme işaret eder.
-- Çift Yönlü Bağlı Liste (Doubly Linked List): Her düğüm hem önceki hem de sonraki düğüme işaret eder.
-- Dairesel Bağlı Liste (Circular Linked List): Son düğüm, ilk düğüme işaret eder.
-
-- Dinamik Boyut: Bağlı listenin boyutu dinamik olarak değiştirilebilir.
-- Kolay Eleman Ekleme ve Çıkarma: Listeye eleman eklemek veya çıkarmak, sadece ilgili düğümlerin bağlantılarını değiştirmeyi gerektirir (O(1) zaman karmaşıklığı).
-
-  
-
-
-#### Fonksiyon-Giriş  
+### Fonksiyon-Giriş  
 📋 Belirli bir işlemi gerçekleştirmek için bir araya getirilmiş kod bloklarıdır. Bir fonksiyon, belirli bir isim altında tanımlanır ve bu isimle çağrılır. Fonksiyonlar, kodunuzu modüler hale getirmenin ve tekrar kullanılabilir parçalar oluşturmanın temel bir yoludur    
 " def fonksiyon_adı(input): " şeklinde tanımlanır.  
 **Abstraksiyon** karmaşık bir sistem veya nesnenin önemli detaylarından arındırılması ve sadece temel işlevlerinin veya özelliklerinin odaklanılması anlamına gelir. Programlama bağlamında, abstraksiyon genellikle bir arayüz veya sınıf kullanarak bir nesnenin iç işleyişini gizlemek veya soyutlamak için kullanılır.  
@@ -615,13 +538,178 @@ Burada,range(5) fonksiyonu bir döngüyü beş kez tekrarlayacak ancak döngü i
 ```python
 name = "Ahmet"
 age = 30
-
-# F-string kullanarak değişkenleri yerleştirme
+F-string kullanarak değişkenleri yerleştirme
 message = f"Merhaba, benim adım {name} ve yaşım {age}."
 
 print(message)
 ```
 Bu örnekte, name ve age değişkenleri, F-string içinde süslü parantez içine yerleştirilmiştir. Program çalıştırıldığında, bu değişkenlerin değerleri doğrudan string içine yerleştirilerek ekrana yazdırılır.
+
+
+
+
+### Veri Yapıları ve Algoritmalar  
+
+📋 Algoritma, belirli bir problemi çözmek veya bir görevi yerine getirmek için tasarlanmış, sonlu sayıda adımlardan oluşan talimatlar dizisidir. Her adım, kesin ve açık bir şekilde tanımlanmış işlemler içerir ve bu adımların sırası takip edildiğinde, başlangıç verilerinden istenilen sonuca ulaşılır. Algoritmalar, bilgisayar bilimlerinde ve günlük yaşamda geniş bir uygulama alanına sahiptir.   
+
+#### Sayı Sistemleri
+
+Bu proje, çeşitli sayı sistemleri hakkında temel bilgileri ve bunlar arasındaki dönüşüm işlemlerini içermektedir.  
+
+###### 1. Onlu Sayı Sistemi (Decimal)
+- **Taban:** 10
+- **Rakamlar:** 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+- **Kullanım:** Günlük yaşamda en yaygın kullanılan sistemdir.
+- **Örnek:** 345 (Bu, 3*10^2 + 4*10^1 + 5*10^0 olarak ifade edilir)
+
+###### 2. İkili Sayı Sistemi (Binary)
+- **Taban:** 2
+- **Rakamlar:** 0, 1
+- **Kullanım:** Bilgisayarlar ve dijital elektroniklerde temel sistemdir.
+- **Örnek:** 1011 (Bu, 1*2^3 + 0*2^2 + 1*2^1 + 1*2^0 olarak ifade edilir)
+
+###### 3. Sekizli Sayı Sistemi (Octal)
+- **Taban:** 8
+- **Rakamlar:** 0, 1, 2, 3, 4, 5, 6, 7
+- **Kullanım:** Bilgisayar bilimlerinde, özellikle daha eski sistemlerde yaygın olarak kullanılır.
+- **Örnek:** 345 (Bu, 3*8^2 + 4*8^1 + 5*8^0 olarak ifade edilir)
+
+###### 4. Onaltılı Sayı Sistemi (Hexadecimal)
+- **Taban:** 16
+- **Rakamlar:** 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F (A = 10, B = 11, ... , F = 15)
+- **Kullanım:** Bilgisayar bilimlerinde, özellikle bellek adresleme ve renk kodlamada kullanılır.
+- **Örnek:** 1A3 (Bu, 1*16^2 + 10*16^1 + 3*16^0 olarak ifade edilir)
+
+###### 5. Üçlü Sayı Sistemi (Ternary)
+- **Taban:** 3
+- **Rakamlar:** 0, 1, 2
+- **Kullanım:** Daha az yaygın olmakla birlikte, bazı teorik ve pratik uygulamalarda kullanılır.
+- **Örnek:** 102 (Bu, 1*3^2 + 0*3^1 + 2*3^0 olarak ifade edilir)
+
+**Dönüşüm İşlemleri**
+
+Sayılar bir sistemden diğerine dönüştürülebilir. İşte birkaç dönüşüm örneği:
+
+**Onlu'dan İkili'ye Dönüşüm:** Sayıyı 2 tabanına bölerek ve kalanları yazarak yapılır.
+  - Örnek: 13 (decimal) → 1101 (binary)
+    - 13 ÷ 2 = 6 kalan 1
+    - 6 ÷ 2 = 3 kalan 0
+    - 3 ÷ 2 = 1 kalan 1
+    - 1 ÷ 2 = 0 kalan 1 (sondan başa doğru yazılır: 1101)
+
+**Onlu'dan Onaltılı'ya Dönüşüm:** Sayıyı 16 tabanına bölerek ve kalanları yazarak yapılır.
+  - Örnek: 255 (decimal) → FF (hexadecimal)
+    - 255 ÷ 16 = 15 kalan 15 (15 = F)
+    - 15 ÷ 16 = 0 kalan 15 (15 = F) (sondan başa doğru yazılır: FF)
+
+##### Kullanım Alanları
+- **Bilgisayar Bilimleri:** İkili, sekizli ve onaltılı sistemler, bellek adresleme, veri temsil etme ve çeşitli algoritmalarda kullanılır.
+- **Elektronik:** İkili sistem, dijital devrelerde ve mikroişlemcilerde kullanılır.
+- **Matematik ve Teorik Bilgisayar Bilimleri:** Çeşitli sayı sistemleri, sayı teorisi ve algoritmaların analizinde kullanılır.
+<br>
+
+**Array:** Sabit boyutlu ve aynı türden elemanlar içeren bir veri yapısıdır.
+  
+  - Elemanlara indeksleri aracılığıyla doğrudan erişim sağlar.
+  - Bellekte ardışık konumlarda saklanır.
+  - **Hızlı Erişim:** İndeksleme sayesinde herhangi bir elemana O(1) zaman karmaşıklığı ile erişilebilir.
+  - **Basitlik:** Yapısı basittir ve kullanımı kolaydır.
+ 
+<br>    
+
+**Linked List**  
+
+Düğümlerin (nodes) birbirine bağlandığı dinamik bir veri yapısıdır. Her düğüm, bir veri öğesi ve bir sonraki düğümün adresini içerir.
+
+- Singly Linked List: Her düğüm sadece sonraki düğüme işaret eder.
+- Doubly Linked List: Her düğüm hem önceki hem de sonraki düğüme işaret eder.
+- Circular Linked List: Son düğüm, ilk düğüme işaret eder.
+
+- Dinamik Boyut: Bağlı listenin boyutu dinamik olarak değiştirilebilir.
+- Kolay Eleman Ekleme ve Çıkarma: Listeye eleman eklemek veya çıkarmak, sadece ilgili düğümlerin bağlantılarını değiştirmeyi gerektirir (O(1) zaman karmaşıklığı).
+<br>
+
+**Stack**   
+
+Veri yapılarından biridir ve verilerin yalnızca üstünden (top) erişilip eklenebildiği veya çıkarılabildiği bir koleksiyondur.  
+**Çalışma Prensibi:** LIFO (Last In, First Out) - Son giren, ilk çıkar.
+
+- **Push:** Yeni bir öğe yığının tepesine eklenir.
+- **Pop:** Yığının tepesindeki öğe çıkarılır.
+- **Peek/Top:** Yığının tepesindeki öğeyi çıkarılmadan görüntüler.
+- **IsEmpty:** Yığının boş olup olmadığını kontrol eder.
+<br>
+
+**Queue**  
+
+Elemanların eklendiği bir veri yapısıdır ve ilk eklenen elemanın ilk çıkarıldığı (FIFO - First In, First Out) prensibi ile çalışır.
+- **Çalışma Prensibi:** FIFO (First In, First Out) - İlk giren, ilk çıkar.
+
+- **Enqueue:** Yeni bir öğe kuyruğun sonuna eklenir.
+- **Dequeue:** Kuyruğun başındaki öğe çıkarılır.
+- **Front/Peek:** Kuyruğun başındaki öğeyi çıkarılmadan görüntüler.
+- **IsEmpty:** Kuyruğun boş olup olmadığını kontrol eder
+<br>
+
+**Hash Table**  
+
+Anahtar-değer çiftlerini depolayan bir veri yapısıdır. Verileri hızlı bir şekilde eklemek, erişmek ve silmek için hash fonksiyonları kullanır.
+**Çalışma Prensibi:** Hash fonksiyonu, verilen anahtarı bir dizin değeriyle eşleştirir ve bu dizin, tablodaki veri konumunu belirler.
+
+- **Anahtar-Değer Çiftleri:** Her veri, bir anahtar ve bu anahtara karşılık gelen bir değerden oluşur.
+- **Hash Fonksiyonu:** Anahtarı alır ve bunu tablo içinde bir indekse dönüştürür.
+- **Çakışma Yönetimi:** İki anahtar aynı indekse hash edilirse (çakışma), bunu çözmek için çeşitli teknikler kullanılır (zincirleme, açık adresleme vb.).
+
+#### Algoritma Türleri
+
+##### 1. Arama Algoritmaları
+- **Linear Search (Doğrusal Arama):** Verilen bir dizide, belirli bir elemanı bulmak için sırayla her elemanı kontrol eder.
+- **Binary Search (İkili Arama):** Sıralanmış bir dizide, ortadaki elemanı kontrol ederek aramayı yarıya indirir. O(log n) zaman karmaşıklığına sahiptir.
+
+##### 2. Sıralama Algoritmaları
+- **Bubble Sort (Kabarcık Sıralaması):** Elemanları ardışık çiftler halinde karşılaştırır ve gerektiğinde yer değiştirir.
+- **Merge Sort (Birleştirme Sıralaması):** Diziyi ikiye böler, her iki yarıyı da ayrı ayrı sıralar ve ardından birleştirir. O(n log n) zaman karmaşıklığına sahiptir.
+- **Quick Sort (Hızlı Sıralama):** Bir pivot seçer ve diziyi bu pivot etrafında yeniden düzenler. Ortalama O(n log n) zaman karmaşıklığına sahiptir.
+
+##### 3. Grafik Algoritmaları
+- **Dijkstra'nın Algoritması:** Ağırlıklı bir grafikte, bir başlangıç düğümünden diğer tüm düğümlere olan en kısa yolları bulur.
+- **Kruskal'ın Algoritması:** Minimum maliyetli bir ağacın (minimum spanning tree) bulunması için kullanılır.
+
+##### 4. Dinamik Programlama
+- **Fibonacci Serisi:** Önceki iki elemanın toplamına dayalı olarak Fibonacci sayısını hesaplar.
+- **Knapsack Problemi:** Belirli bir ağırlık kapasitesiyle, maksimum değeri elde etmek için nesnelerin seçilmesi problemi.
+
+#### Algoritma Analizi
+
+Bir algoritmanın verimliliğini ve performansını değerlendirmek için kullanılan yöntem ve tekniklerin bütünüdür. Bu analiz, algoritmanın çalışma süresi ve bellek kullanımı gibi kaynak tüketimini inceler.
+**Amaç;**  
+- Algoritmanın ne kadar hızlı çalıştığını ve ne kadar bellek kullandığını anlamak.
+- Farklı algoritmaların aynı problemi çözmedeki performanslarını karşılaştırmak.
+- Algoritmanın büyük veri kümelerinde nasıl davranacağını tahmin etmek.
+
+##### Zaman Karmaşıklığı (Time Complexity)
+Algoritmanın çalışma süresinin, girdi boyutuna bağlı olarak nasıl değiştiğini gösterir.
+- **Big O Notasyonu:** En kötü durum senaryosunda algoritmanın performansını ifade eder.
+  - **O(1):** Sabit zaman
+  - **O(n):** Doğrusal zaman
+  - **O(log n):** Logaritmik zaman
+  - **O(n^2):** Karesel zaman
+
+##### Uzay Karmaşıklığı (Space Complexity)
+Algoritmanın bellek kullanımı, girdi boyutuna bağlı olarak nasıl değiştiğini gösterir.
+- **Big O Notasyonu:** En kötü durum senaryosunda algoritmanın bellek kullanımı.
+
+#### Algoritma Analizinde En Kötü, Ortalama ve En İyi Durum
+
+- **En Kötü Durum (Worst Case):** Algoritmanın en yavaş çalıştığı senaryo. Bu, genellikle algoritmanın performansının garanti edilmesi gereken durumlar için önemlidir.
+- **Ortalama Durum (Average Case):** Algoritmanın tipik bir girdi kümesi üzerindeki performansı. Bu, genellikle günlük kullanımda algoritmanın beklenen davranışını temsil eder.
+- **En İyi Durum (Best Case):** Algoritmanın en hızlı çalıştığı senaryo. Bu, algoritmanın ideal şartlar altında nasıl performans gösterdiğini gösterir.  
+
+##### Doğrusal Arama (Linear Search)
+- **Açıklama:** Bir dizide belirli bir elemanı bulmak için sırayla her elemanı kontrol eder.
+- **En Kötü Durum:** O(n) - Aranan eleman dizinin sonunda veya dizide yoksa.
+- **Ortalama Durum:** O(n/2) veya O(n) - Aranan eleman dizinin ortalarında bir yerdeyse (ortalama olarak).
+- **En İyi Durum:** O(1) - Aranan eleman dizinin başındaysa.
 
 
  ### 🤩 Clean Code  

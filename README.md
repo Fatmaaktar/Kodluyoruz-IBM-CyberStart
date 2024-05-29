@@ -712,6 +712,46 @@ Algoritmanın bellek kullanımı, girdi boyutuna bağlı olarak nasıl değişti
 - **En İyi Durum:** O(1) - Aranan eleman dizinin başındaysa.
 
 
+### Temel Bilgisayar Ağları
+
+Bu belge, temel bilgisayar ağları hakkında bilgi içermektedir. Bilgisayar ağları, cihazların birbiriyle iletişim kurmasını ve veri paylaşmasını sağlayan sistemlerdir. Bu belgede ağ türleri, topolojileri, bileşenleri, protokoller ve güvenlik hakkında temel bilgiler bulabilirsiniz.
+
+#### Ağ Türleri
+- **LAN (Local Area Network - Yerel Alan Ağı):** Küçük bir coğrafi alanı kapsayan ağlardır, genellikle bir bina veya kampüs içindeki cihazları birbirine bağlar. Ethernet ve Wi-Fi, yaygın kullanılan teknolojilerdir.
+- **WAN (Wide Area Network - Geniş Alan Ağı):** Geniş coğrafi alanları kapsayan ağlardır. İnternet, en büyük WAN örneğidir.
+- **MAN (Metropolitan Area Network - Metropol Alan Ağı):** Bir şehir veya büyük bir kampüs gibi daha geniş bir alanı kapsayan ağlardır.
+- **PAN (Personal Area Network - Kişisel Alan Ağı):** Çok küçük bir alanı, genellikle bir kişinin cihazları arasında veri alışverişini kapsayan ağlardır. Bluetooth ve USB, yaygın teknolojilerdir.
+
+#### Ağ Topolojileri
+- **Yıldız (Star) Topolojisi:** Tüm cihazlar merkezi bir cihaza (örneğin, bir switch veya hub) bağlıdır. Kolay yönetilebilir ve sorun tespiti kolaydır.
+- **Halka (Ring) Topolojisi:** Cihazlar halka şeklinde birbirine bağlanır. Veriler belirli bir yönde dolaşır. Ancak, bir bağlantı kesilirse tüm ağ etkilenir.
+- **Veri Yolu (Bus) Topolojisi:** Tüm cihazlar tek bir veri yolu üzerinden bağlanır. Kurulumu kolaydır ancak veri yolu arızalanırsa tüm ağ çalışmaz.
+- **Ağaç (Tree) Topolojisi:** Yıldız topolojisinin bir uzantısıdır, merkezi düğümlerden dallanarak alt ağlar oluşturur.
+- **Ağ (Mesh) Topolojisi:** Her cihaz diğer cihazlara doğrudan bağlanır. Yüksek güvenilirlik sağlar, ancak karmaşıktır ve maliyetlidir.
+
+#### Ağ Bileşenleri
+- **Yönlendirici (Router):** Ağlar arasında veri paketlerini yönlendirir. İnternet bağlantısı sağlayıcılarının kullandığı ana cihazlardır.
+- **Anahtar (Switch):** Yerel ağlarda cihazları birbirine bağlar. Verimli ve güvenilir veri iletimi sağlar.
+- **Hub:** Çoklu cihazları birbirine bağlar, ancak veri paketlerini herkese iletir, bu da daha az verimli olur.
+- **Erişim Noktası (Access Point):** Kablosuz cihazların bir kablolu ağa bağlanmasını sağlar.
+
+#### Ağ Protokolleri
+- **TCP/IP (Transmission Control Protocol/Internet Protocol):** İnternetin temel protokolüdür, veri paketlerinin nasıl iletileceğini ve adresleneceğini belirler.
+- **HTTP/HTTPS (HyperText Transfer Protocol/Secure):** Web sayfalarını görüntülemek için kullanılır. HTTPS, güvenli veri iletimi sağlar.
+- **FTP (File Transfer Protocol):** Dosya transferi için kullanılır.
+- **SMTP (Simple Mail Transfer Protocol):** E-posta gönderimi için kullanılır.
+- **DNS (Domain Name System):** Alan adlarını IP adreslerine dönüştürür.
+
+#### Ağ Güvenliği
+- **Firewall (Güvenlik Duvarı):** İzin verilen ve yasaklanan trafik kurallarını belirler, yetkisiz erişimi engeller.
+- **VPN (Virtual Private Network):** İnternet üzerinden güvenli ve şifreli bağlantı sağlar.
+- **Antivirüs ve Antimalware Yazılımları:** Zararlı yazılımlara karşı koruma sağlar.
+- **Şifreleme (Encryption):** Verilerin okunabilir olmaktan çıkarılarak gizliliğinin korunmasını sağlar.
+
+Bilgisayar ağları, modern bilgi teknolojisinin bel kemiğidir ve her türlü veri iletişimi ve paylaşımında kritik bir rol oynar. Ağ türleri ve bileşenleri hakkında temel bilgi sahibi olmak, ağların nasıl çalıştığını ve nasıl güvenli hale getirileceğini anlamak için önemlidir.
+
+
+
  ### 🤩 Clean Code  
  Temiz kodun önemi, yazılım geliştirmenin sadece kodu yazmak olmadığı gerçeğinden kaynaklanır. Kodun yazılmasından sonra, onu okuma, anlama, değiştirme ve bakımını yapma işlemi başlar  
  <br>
